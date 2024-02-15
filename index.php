@@ -6,6 +6,21 @@
     line
     comment
     */
+    $name = "<br>gabriel machado";
+    echo $name;
+    echo "<br>Hello {$name}";
+
+    $movie = "The Avengers";
+    echo "<br>My favorite movie is {$movie}";
+
+    $game = "Baldur's Gate 3";
+    echo "<br>The game of 2023 year is {$game}";
+
+    $age = 24;
+    echo "<br>My age is {$age}<br>";
+
+    $price = 2.7;
+    echo "The apple is {$price}<br>";
 ?>
 
 <!DOCTYPE html>
