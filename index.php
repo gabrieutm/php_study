@@ -25,7 +25,18 @@
     $online = true;
     $for_sale = false;
 
-    echo "Online status: {$online}"
+    echo "Online status: {$online}<br>";
+
+    $count = 10;
+    $count++;
+    echo $count;
+    echo"<br>";
+    $count--;
+    $count--;
+    echo $count;
+    echo"<br>";
+    $count+=4;
+    echo $count;
 ?>
 
 <!DOCTYPE html>
