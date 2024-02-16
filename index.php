@@ -20,7 +20,12 @@
     echo "<br>My age is {$age}<br>";
 
     $price = 2.7;
-    echo "The apple is {$price}<br>";
+    echo "The apple is \${$price}<br>";
+
+    $online = true;
+    $for_sale = false;
+
+    echo "Online status: {$online}"
 ?>
 
 <!DOCTYPE html>
