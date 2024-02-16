@@ -26,5 +26,17 @@
 
     $total = $quantity * $price;
 
-    echo"Your total is: \${$total}";
+    echo"Your total is: \${$total} <br>";
+
+    $delivery = round($quantity * $price, 2);
+
+    if ($total >= 200){
+        echo "You get a free delivery and one small pizza!";
+    }
+    elseif($total >= 100){
+        echo "You get a free delivery!";
+    }
+    else{
+        echo "Your delivery is \${$delivery}";
+    }
 ?>
